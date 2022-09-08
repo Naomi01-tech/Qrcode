@@ -1,0 +1,44 @@
+.fir{
+    background-color: rgb(188, 204, 209);
+    height: 700px;
+    width: 1260px;
+    display:flex;
+}
+#sec{
+    background-color:white;
+    height: 360px;
+    width: 250px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: width 3s ,color 2s;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+img{
+    margin-left: 24px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+p{
+    color: lightgrey;
+    font-size: medium;
+    text-align: center;
+}
+button{
+    color: brown;
+    background-color: burlywood;
+}
+button:hover{
+        color: blue;
+    }
+p:hover{
+    color: orange;
+    transition: ;
+}
+#sec:hover{
+    width: 350px;
+    color: royalblue;
+}
